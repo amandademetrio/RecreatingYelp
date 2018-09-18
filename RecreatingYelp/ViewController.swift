@@ -28,7 +28,6 @@ class ViewController: UIViewController {
             userLocation = locationManager.location
             let lat = (userLocation?.coordinate.latitude)!
             let long = (userLocation?.coordinate.longitude)!
-            print("user location is",lat,long)
         }
     }
 
